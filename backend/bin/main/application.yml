@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mycorporatedb
+    username: usuario1
+    password: usuario1
+  jdbc:
+    template:
+      max-rows: 1000
+server:
+  port: 8082
